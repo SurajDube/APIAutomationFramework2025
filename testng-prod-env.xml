@@ -1,0 +1,14 @@
+
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="p0"> </include>
+        </run>
+    </groups>
+    <test preserve-order="true" name="APIAutomationFramework">
+        <classes>
+            <class name="com.thetestingacademy.tests.integration.crud.TestIntegrationFlow">
+            </class>
+        </classes>
+    </test>
+</suite>

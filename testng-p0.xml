@@ -1,0 +1,17 @@
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <!-- Include specific groups -->
+            <include name="P0"/>
+
+            <!-- Exclude specific groups (optional) -->
+            <!-- <exclude name="regression"/> -->
+        </run>
+    </groups>
+    <test name="APIAutomationFramework">
+        <classes>
+            <class name="com.thetestingacademy.tests.integration.crud.TestIntegrationFlow">
+            </class>
+        </classes>
+    </test>
+</suite>
