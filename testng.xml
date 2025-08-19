@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C:/Users/SURAJ DUBEY/IdeaProjects/APIAutomationFramework2025">
+
+        <groups>
+            <run>
+                <!-- Include specific groups -->
+                <include name="smoke"/>
+                <include name="sanity"/>
+
+                <!-- Exclude specific groups (optional) -->
+                <!-- <exclude name="regression"/> -->
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="com.thetestingacademy.tests.integration.sample.TestIntegrationSample">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
